@@ -1,0 +1,40 @@
+.partners {
+  margin-bottom: 200px;
+}
+
+.title-col {
+  display: flex;
+  margin-bottom: 120px;
+}
+.partners-img {
+  max-height: 80px;
+}
+.partners-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-left: 50px;
+}
+.top-partners-row {
+  div {
+    &:last-child {
+      border-right: none;
+    }
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 30px 60px;
+  }
+}
+
+.bottom-partners-row {
+  div {
+    padding: 30px 60px;
+    border-right: 1px solid #fff;
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
+
+.msi-logo {
+  width: 100%;
+}
