@@ -1,40 +1,39 @@
 .partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 200px;
 }
 
-.title-col {
+.partners-title-row {
   display: flex;
-  margin-bottom: 120px;
-}
-.partners-img {
-  max-height: 80px;
-}
-.partners-title {
+  align-self: flex-start;
   font-size: 48px;
   font-weight: 700;
-  margin-left: 50px;
-}
-.top-partners-row {
-  div {
-    &:last-child {
-      border-right: none;
-    }
-    border-right: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-    padding: 30px 60px;
-  }
-}
 
-.bottom-partners-row {
-  div {
-    padding: 30px 60px;
-    border-right: 1px solid #fff;
-    &:last-child {
-      border-right: none;
-    }
+  .partners-img {
+    max-height: 80px;
+    margin-right: 30px;
   }
+  margin-bottom: 80px;
 }
-
-.msi-logo {
+.msi-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
+  max-width: 1300px;
+}
+.msi-logo-container {
+  padding: 30px 60px;
+  border: 1px solid #fff;
+}
+
+@media (max-width: 1440px) {
+}
+@media (max-width: 1024px) {
+}
+@media only screen and (max-width: 768px) and (min-width: 375px) {
 }
