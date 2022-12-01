@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
 }
 .program-logo {
   margin-bottom: 70px;
@@ -26,6 +27,7 @@
   text-align: right;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .road-content {
   position: relative;
@@ -64,11 +66,35 @@
 .right-side {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .middle-line {
   width: 6px;
-
-  height: 650px;
+  height: 670px;
   background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+}
+
+@media only screen and (max-width: 768px) and (min-width: 375px) {
+  .road-content {
+    padding: 20px;
+  }
+  .side-text {
+    font-size: 14px;
+    &::before {
+      width: 15px;
+    }
+    &-right {
+      font-size: 14px;
+      &::before {
+        width: 15px;
+      }
+    }
+  }
+  .middle-line {
+    width: 4px;
+    height: 500px;
+  }
+  .program-title {
+    font-size: 36px;
+  }
 }
