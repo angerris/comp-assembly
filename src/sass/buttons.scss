@@ -10,6 +10,12 @@
     padding: 10px 36px;
   }
 }
+@media (hover: hover) {
+  .btn:hover {
+    transition: 0.5s;
+    padding: 10px 36px;
+  }
+}
 .primary {
   background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
 }
