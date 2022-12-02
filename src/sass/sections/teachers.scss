@@ -1,3 +1,8 @@
+$white-25: rgba(255, 255, 255, 0.25);
+$white-30: rgba(255, 255, 255, 0.3);
+$white-40: rgba(255, 255, 255, 0.4);
+$white-50: rgba(255, 255, 255, 0.5);
+$white-80: rgba(255, 255, 255, 0.8);
 .teachers {
   margin-bottom: 200px;
 }
@@ -46,6 +51,7 @@
   text-align: center;
   font-size: 16px;
   margin-bottom: 40px;
+  color: $white-80;
 }
 @media only screen and (max-width: 768px) and (min-width: 375px) {
   .teachers {

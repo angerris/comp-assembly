@@ -1,8 +1,14 @@
+$white-25: rgba(255, 255, 255, 0.25);
+$white-30: rgba(255, 255, 255, 0.3);
+$white-40: rgba(255, 255, 255, 0.4);
+$white-50: rgba(255, 255, 255, 0.5);
+$white-80: rgba(255, 255, 255, 0.8);
 .start {
   margin-bottom: 200px;
   &-text {
     font-size: 16px;
     margin-bottom: 80px;
+    color: $white-50;
   }
   &-info {
     display: flex;
@@ -30,6 +36,7 @@
 }
 .info-text {
   padding-right: 30px;
+  color: $white-50;
 }
 .start-rectangle-row {
   display: flex;

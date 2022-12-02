@@ -1,3 +1,8 @@
+$white-25: rgba(255, 255, 255, 0.25);
+$white-30: rgba(255, 255, 255, 0.3);
+$white-40: rgba(255, 255, 255, 0.4);
+$white-50: rgba(255, 255, 255, 0.5);
+$white-80: rgba(255, 255, 255, 0.8);
 .footer {
   margin-bottom: 30px;
   display: flex;
@@ -12,6 +17,7 @@
   font-size: 16px;
   text-align: center;
   padding: 50px;
+  color: $white-50;
 }
 .footer-bottom {
   display: flex;
@@ -63,13 +69,14 @@
 .footer-bottom-text {
   text-align: center;
   margin-top: 50px;
+  color: $white-80;
 }
 .footer-input-area {
   border-radius: 50px;
   width: 370px;
   display: block;
   padding: 11px 30px;
-  background-color: rgba(255, 255, 255, 0.24);
+  background-color: $white-25;
   &::placeholder {
     color: #fff;
     opacity: 100%;
